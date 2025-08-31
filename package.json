@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "la-la-lacuna",
+  "repository": "https://github.com/brendanle65/la-la-lacuna.git",
+  "author": "Brendan Le <80903766+brendanle65@users.noreply.github.com>",
+  "@comments": {
+    "dev": "develop locally",
+    "build": "bundle production files",
+    "preview": "serve production files"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.1.1",
+    "svelte": "^5.38.1",
+    "vite": "^7.1.2"
+  }
+}
