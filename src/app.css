@@ -1,5 +1,26 @@
+/* IMPORT FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+@font-face {
+  font-family: "Mazius";
+  src: url("../../static/fonts/MaziusDisplay-Extraitalic.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* GLOBAL STYLES */
+:root {
+  --color-bg: #fffff;
+  --color-text: #000000;
+}
+
+.--dark-theme {
+  --color-bg: #282828;
+  --color-text: #ffffff;
+}
+
 body {
+  font-family: "Courier Prime", monospace;
   margin: 0;
   padding: 0;
 }
