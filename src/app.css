@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "Mazius";
-  src: url("../../static/fonts/MaziusDisplay-Extraitalic.woff2");
+  src: url("../public/fonts/MaziusDisplay-Extraitalic.woff2");
   font-weight: normal;
   font-style: normal;
 }

@@ -43,4 +43,8 @@
     text-decoration: underline;
     color: inherit;
   }
+
+  .link:hover {
+    color: #666666;
+  }
 </style>
